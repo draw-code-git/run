@@ -1,19 +1,17 @@
-function YesButton(){
+function YesButton({ onClick }){
   return(
     <button
-          style={{
-        // position: "fixed",
-        // left: 200,
-        // top: 0,
-        // transform: "translate(200px, 200px)",
+      onClick={onClick}
+      style={{
         padding: "14px 24px",
-        fontSize: "16px",
+        fontSize: "32px",
         borderRadius: "12px",
         background: "#ff5a5f",
         color: "white",
         border: "none",
         cursor: "pointer",
         fontWeight: "bold",
+        margin: "5px"
       }}>Yes❤️</button>
   )
 }
