@@ -37,7 +37,7 @@ return (
         />
       )}
 
-      <Header text="Shavya do you want to talk to me?" />
+      <Header text="Will you go out on a date with me ?" />
       <div className="flex flex-row gap-4 items-center">
         <YesButton onClick={handleYesClick} />
         <NoButton />
